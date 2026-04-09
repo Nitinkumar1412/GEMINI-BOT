@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.15)
+project(Chatbot)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# Use your vcpkg installation
+set(CMAKE_TOOLCHAIN_FILE "C:/Users/Nitin/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "")
+
+find_package(CURL REQUIRED)
+
+add_executable(chatbot chatbot.cpp)
+
+target_link_libraries(chatbot PRIVATE CURL::libcurl)

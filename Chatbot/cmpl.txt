@@ -1,0 +1,5 @@
+g++ SVN_BOT.cpp -I"C:/curl/include" -L"C:/curl/lib" -lcurl -I"C:/json"
+g++ sample2.cpp -I"C:/curl/include" -L"C:/curl/lib" -lcurl -I"C:/json"
+
+
+API KEY ----
