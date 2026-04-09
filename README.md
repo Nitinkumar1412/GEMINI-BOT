@@ -95,7 +95,7 @@ static const string CA_BUNDLE = "C:/curl/cacert.pem";
 -----------------------------------------------
             WELCOME TO SVN BOT  
 -----------------------------------------------
-     Designed by: Santosh | Nitin | Vaikhan
+     Designed by: Nitin
 -----------------------------------------------
 Type 'exit' anytime to quit.
 
