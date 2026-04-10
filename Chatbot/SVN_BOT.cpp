@@ -12,7 +12,7 @@
 using json = nlohmann::json;
 using namespace std;
 
-static const string API_KEY = "AIzaSyCaAVZrQHaEkLrLs09B2cdXNWzYpewtGJE";
+static const string API_KEY = "Your Api Key";
 static const string CA_BUNDLE = "C:/curl/cacert.pem";
 
 // Callback to capture response
